@@ -1,1 +1,19 @@
-{}
+{
+  "name": "trawls-v0.2.0",
+  "notes": "",
+  "pub_date": "2022-05-13T17:09:14",
+  "platforms": {
+    "darwin": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT0lCbnFLbFh4Z21UaWF4YldRQWFHeWZiSkxkTnhtYnU5Z3FmOWpuaUtxaXBvdzFuT2o0SFhFb1lPSURWenNGRWplZEVPNXNNM1RUVCtKM3UwTjhjTGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjUyNDYxMzgwCWZpbGU6L1VzZXJzL3J1bm5lci93b3JrL3RyYXdscy90cmF3bHMvc3JjLXRhdXJpL3RhcmdldC9yZWxlYXNlL2J1bmRsZS9tYWNvcy90cmF3bHMuYXBwLnRhci5negpRYllCdnBUOVpLQkVCZWFSclJQNG5JS0IyYjRadExSSWtGelJGOENLNm92Z2h2U0kxN3VHQnRlSW0rVEVwbFhUMU0zekR0WFc2bjArSVpwVFRpK21CUT09Cg==",
+      "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.2.0/trawls.app.tar.gz"
+    },
+    "linux": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT0FIOWFYb2hCVUJHcmw1cFhUZXc0dld1MDVUMU5qQTYxSTNjbU1qczVMS0hFN1UwM1VvRVpTeThsMTJWMjF2ekVxRHhMYVJYbmFpVHZab0REemkxNUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjUyNDYxMjMxCWZpbGU6L2hvbWUvcnVubmVyL3dvcmsvdHJhd2xzL3RyYXdscy9zcmMtdGF1cmkvdGFyZ2V0L3JlbGVhc2UvYnVuZGxlL2FwcGltYWdlL3RyYXdsc18wLjIuMF9hbWQ2NC5BcHBJbWFnZS50YXIuZ3oKbllSWXRJeUFhdHBrb3J3dlFQUTJVSjJrOTlwcm1RZlNrVUk2UUFOMXpCSm5ySkNoNlFJaVVrMENLL1I3N0JzV3FVUDJGek5JMVp3TllRSzVmU3dVQmc9PQo=",
+      "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.2.0/trawls_0.2.0_amd64.AppImage.tar.gz"
+    },
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT1B1TDdweTdVMndIVVJiZ2tOQ2N6VjFjK1RuYkpXWVl5aTlzQ3ZyM2F4T3l2aFZxK1F6bFMybkNkc29GajdzdXBYNU9vc3lSSnNQdmNBUng4ak93R2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjUyNDYxNzAyCWZpbGU6RDpcYVx0cmF3bHNcdHJhd2xzXHNyYy10YXVyaVx0YXJnZXRccmVsZWFzZVxidW5kbGUvbXNpL3RyYXdsc18wLjIuMF94NjRfZW4tVVMubXNpLnppcApKQk5HRHUyb2hFMENEZGltSC80MG9UZzJsUnVIMmliMHB0MFE5VkRTSFNIV2Vwd1dtMEU1UHJMaFQ4S3l3U1NLNjg1K21DQWRmZFlMR1RKMDN0d05EQT09Cg==",
+      "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.2.0/trawls_0.2.0_x64_en-US.msi.zip"
+    }
+  }
+}
