@@ -1,6 +1,6 @@
 {
   "name": "0.2.1",
-  "notes": "- \ud83d\udc84 Add new logo\r\n- \ud83d\udc84 Use dark window theme, to match with the main theme\r\n- \ud83d\udc84 Add a version indicator",
+  "notes": "Add new logo, Use dark window theme, to match with the main theme, Add a version indicator",
   "pub_date": "2022-05-23T15:31:11",
   "platforms": {
     "darwin": {
