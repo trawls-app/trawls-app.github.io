@@ -34,15 +34,15 @@ if __name__ == '__main__':
         "notes": release.body,
         "pub_date": release.published_at.isoformat(),
         "platforms": {
-            "darwin": {
+            "darwin-x86_64": {
                 "signature": get_sig(release_assets, ".app.tar.gz"),
                 "url": get_browser_download_url(release_assets, ".app.tar.gz")
             },
-            "linux": {
+            "linux-x86_64": {
                 "signature": get_sig(release_assets, ".AppImage.tar.gz"),
                 "url": get_browser_download_url(release_assets, ".AppImage.tar.gz")
             },
-            "win64": {
+            "windows-x86_64": {
                 "signature": get_sig(release_assets, ".msi.zip"),
                 "url": get_browser_download_url(release_assets, ".msi.zip")
             }
