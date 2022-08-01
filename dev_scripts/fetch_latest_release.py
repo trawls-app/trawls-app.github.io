@@ -1,4 +1,5 @@
 import requests
+import re
 import json
 from github import Github
 
@@ -24,15 +25,16 @@ def get_sig(assets, ending):
 if __name__ == '__main__':
     repo = Github().get_repo("trawls-app/trawls")
     release = repo.get_latest_release()
+    version_str = re.search(r"\d+\.\d+\.\d+.*", release.tag_name).group()
 
     if release.draft:
         raise Exception("Release is still a draft")
 
     release_assets = release.get_assets()
     data = {
-        "name": release.tag_name,
+        "name": version_str,
         "notes": release.body,
-        "pub_date": release.published_at.isoformat(),
+        "pub_date": release.published_at.isoformat() + "Z",
         "platforms": {
             "darwin-x86_64": {
                 "signature": get_sig(release_assets, ".app.tar.gz"),
@@ -50,4 +52,4 @@ if __name__ == '__main__':
     }
 
     with open("../static_api/releases/current.json", "w") as fp:
-        json.dump(data, fp)
+        json.dump(data, fp, indent=4)
