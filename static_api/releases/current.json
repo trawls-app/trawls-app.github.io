@@ -1,19 +1,19 @@
 {
-    "name": "0.4.0",
-    "notes": "* \ud83e\udd45 Display errors which occur during processing to the user\r\n* \u26a1\ufe0f Abort workers when errors occur\r\n* \ud83d\udeb8 Only start processing if input file metadata loaded without problems\r\n* \ud83e\uddd1\u200d\ud83d\udcbb Advanced logging to console using `pretty_env_logger`\r\n* \u2b06\ufe0f Bump chrono, sass and serde to latest versions\r\n\r\n\r\n**Full Changelog**: https://github.com/trawls-app/trawls/compare/trawls-v0.3.0...trawls-v0.4.0",
-    "pub_date": "2022-08-08T17:16:28Z",
+    "name": "0.4.1",
+    "notes": "* \u2b06\ufe0f Apply several dependency updates\r\n* \ud83d\udc77 Build universal apple binaries\r\n\r\n\r\n**Full Changelog**: https://github.com/trawls-app/trawls/compare/trawls-v0.4.0...trawls-v0.4.1",
+    "pub_date": "2022-12-30T12:20:57Z",
     "platforms": {
-        "darwin-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT0FEQkJKT3ZrK21LQTNFRjEvaXVnemxBWllNZjlnNHQ4MFUvbUZ3eVozV2lTRW9ZdXk4TURIVkFmcnRVZC9XQ2JLM2tTUGdJZGpod04zMjV5cWhJc1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjU5OTc4MjI3CWZpbGU6dHJhd2xzLmFwcC50YXIuZ3oKaHQ3UWFvc2tsditsams3NkhweEJEdndNWnA5SkF4MHVsMUh5a3BUSUgyTmZSZDlJWWhIVVNyQjV0OE9RWWNEQWU4VU5jaXpSV2dNbzNHallxZHhpQ0E9PQo=",
-            "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.4.0/trawls.app.tar.gz"
+        "darwin-universal": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT0o0R0dHL1NiT2FYTVJNT0RiSVN4YmxhMjZxUHp6MllBb1dJZXg5eUFTek5wbnFFYU1LdE83bU5GNkpwMXVyOTdnWVo5YW5hMHpWdHMyZ01aa25hRFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjcyNDAyNDEwCWZpbGU6dHJhd2xzLmFwcC50YXIuZ3oKNEVRcTBEYlNETTFjRVVRRi9jV2ZXaU5kNE1Mdk1Kc2NmQkx0NW83NkdiTHoxdzhFUVo0QnNxTHhCQlBobHN4clBNTTM1bitoOXc3bDBtT1g0TW9pREE9PQo=",
+            "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.4.1/trawls_universal.app.tar.gz"
         },
         "linux-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT0E5dlNnTWlLWE5TaUtVcHUzVnVQV3FkbG9CNldyMkRsWC9LcGJZYkhmYkZQU3JhV0FxbTJaN3pTSnNaRmhkSmk3UjJUNmQxMkRrT0RIV2NqcEV3VHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjU5OTc3ODEyCWZpbGU6dHJhd2xzXzAuNC4wX2FtZDY0LkFwcEltYWdlLnRhci5negpwUWdlTkh5YTB2OXpjZ0FuQmxZemlQWUc5d0phSUJEWjJVQkxjM1hmOXZnREpHZFZ2d3RiRTAyZnFTenZQdllMMDdNcitYWHY4L2UrVWU3eDNBZ0xCZz09Cg==",
-            "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.4.0/trawls_0.4.0_amd64.AppImage.tar.gz"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT0VmSGdMS3gxL2V2VHVPZW5LTVJCNHJWY0hpZHo4V0JsWXhLV0tyejhmR2krdDBOZTlhM20wMXVwZURQMERmN3hmZXAzVld5RDRmZ3BROXZwblVJWEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjcyNDAxODU0CWZpbGU6dHJhd2xzXzAuNC4xX2FtZDY0LkFwcEltYWdlLnRhci5negp1ZUM2eW9JVHFsbXpQb09ibXFTRmREelJiS3UrdzBmeGJTMityd2tRR0lLTEJEVkxFc0FuN0dwd2RicElZcVZlVDJScWRwWllXem5Qb3V0QW9OSmZCQT09Cg==",
+            "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.4.1/trawls_0.4.1_amd64.AppImage.tar.gz"
         },
         "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT0VzbW5aZEhYVURLeko3dHZlcmpaVW5nbUpjN09ZY1B4ZUhGblI2QXo0djRUZGVDSFFxL3NkdDZPQytJTkVmNlVBWHYwUTFlaE03b251ZnN6Y09VM0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjU5OTc4NjkxCWZpbGU6dHJhd2xzXzAuNC4wX3g2NF9lbi1VUy5tc2kuemlwCkg4SjhGeExqTDJNNDJOMkF5L0ZYNDlzakVDaUgvQTFFY1dENmZRMWNjQkthVFgyaDhXc2dZVnFtVExGMytlMkU4VGJEZjRWOW5QVzR1Vkh5cTVUY0N3PT0K",
-            "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.4.0/trawls_0.4.0_x64_en-US.msi.zip"
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRU1gxRjFLWFhjT01XaVU0NnIzTjMxbk14RXJKVVBhbnNKQlltNWpYMUJzd1hiYzYzelNyUmZZV0UzMElCVjNRRVp1aVJoY1podUFNUTVRSTRHR3E0T01SZnpjMlIyRVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjcyNDAyMjE5CWZpbGU6dHJhd2xzXzAuNC4xX3g2NF9lbi1VUy5tc2kuemlwClFzNlllSGdDY2JucmtkY1RHakR1b002U0dDYUJrZ0duL3VUb2c4a1M4T1hDU2pXR1dHRXI3Ni85QkFGUjgwZXVvdGx6N2xlUFVQOFloZlFnR1NzZ0R3PT0K",
+            "url": "https://github.com/trawls-app/trawls/releases/download/trawls-v0.4.1/trawls_0.4.1_x64_en-US.msi.zip"
         }
     }
 }

@@ -36,7 +36,7 @@ if __name__ == '__main__':
         "notes": release.body,
         "pub_date": release.published_at.isoformat() + "Z",
         "platforms": {
-            "darwin-x86_64": {
+            "darwin-universal": {
                 "signature": get_sig(release_assets, ".app.tar.gz"),
                 "url": get_browser_download_url(release_assets, ".app.tar.gz")
             },
